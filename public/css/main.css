@@ -1,0 +1,49 @@
+h1 
+{ 
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 150%; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+}
+
+.formItems
+{
+  display: inline-block;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #a1a1a1;
+  padding: 0 2em;
+  margin: 0.5em;
+  font: bold 1em/2em Arial, Helvetica;
+  text-decoration: none;
+  color: #333;
+  border-radius: .2em;
+}
+
+.buttons
+{
+  background: #eeeeee; /* Old browsers */
+  background: -moz-linear-gradient(top, #eeeeee 0%, #eeeeee 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #eeeeee 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #eeeeee 0%,#eeeeee 100%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #eeeeee 0%,#eeeeee 100%); /* IE10+ */
+  background: linear-gradient(top, #eeeeee 0%,#eeeeee 100%); /* W3C */    
+}
+
+.buttons:before
+{
+  float: left;
+  width: 1em;
+  text-align: center;
+  font-size: 1.7em;
+  margin: 0 0.5em 0 -1em;
+  padding: 0 .2em;
+  pointer-events: none;
+}
+
+.star:before 
+{
+    content: "\2605"; 
+}
